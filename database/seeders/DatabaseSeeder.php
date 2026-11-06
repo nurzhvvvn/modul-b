@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use App;
 use App\Models\Categories;
 use App\Models\User;
-use App\Models\Adverts;
+use App\Models\adverts;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use PharIo\Version\AndVersionConstraintGroup;
@@ -218,6 +218,5 @@ class DatabaseSeeder extends Seeder
             'photos' => '[\"advert-1.jpg\",\"advert-2.jpg\",\"advert-3.jpg\",\"advert-4.jpg\"]',
             'paid_services' => '[\"top\",\"vip\"]'
         ]);
-
     }
 }

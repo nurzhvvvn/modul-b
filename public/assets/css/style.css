@@ -1,0 +1,14 @@
+.cont{ 
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    background-color: blanchedalmond;
+    padding: 70px;
+    border-radius: 15px;
+}
