@@ -1,6 +1,6 @@
 name,phone,email,password,role
 Ethan Brooks,+1 202 555 0143,ethan@example.com,<hash(ethan_123)>,user
-Olivia Carter,+44 7700 900321,olivia@example.com,$2y$12$UDM6KrJRMAoPSg/Nn54CGOmmFB./Ln7tR7VJ.NGFG0mdXtnLaFKW6,moderator
+Olivia Carter,+44 7700 900321,olivia@example.com,<hash(olivia_123)>,moderator
 Mason Hill,+61 412 345 678,mason@example.com,<hash(mason_123)>,user
 Ava Thompson,+49 1512 3456789,ava@example.com,<hash(ava_123)>,moderator
 Liam Wright,+33 6 12 34 56 78,liam@example.com,<hash(liam_123)>,user

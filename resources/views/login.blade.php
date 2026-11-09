@@ -10,8 +10,10 @@
     <div class="cont">
         <div class="conteiner">
             <h1>Login form</h1>
+            <p> @error('login'){{ $message }}
+            @enderror</p>
             <div class="log-form">
-                <form action="{{ route('Auth.login') }}" method="POST">
+                <form action="{{ route('auth.login') }}" method="POST">
                     @csrf
                     <div>
                         <p>Login</p>
